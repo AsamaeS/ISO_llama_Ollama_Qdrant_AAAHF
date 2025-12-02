@@ -1,17 +1,49 @@
-# RAG Based LLM AI Chatbot 🤖
-RAG Based LLM AI Chatbot Built using Open Source Stack (Llama 3.2 Model, BGE Embeddings, and Qdrant running locally within a Docker Container)
+# RAG Based LLM AI Chatbot - Assistant Intelligent ISO & RH 🤖
+
+Assistant intelligent basé sur RAG (Retrieval-Augmented Generation) spécialisé dans les normes ISO et documents RH. Utilise une stack open source (Llama 3.2, BGE Embeddings, et Qdrant) pour fournir des réponses précises avec **citation des sources**.
 
 ![RAG Based LLM AI Chatbot](sct.png)
 
-**RAG Based LLM AI Chatbot** is a powerful Streamlit-based application designed to simplify document management. Upload your PDF documents, create embeddings for efficient retrieval, and interact with your documents through an intelligent chatbot interface. 🚀
+## 🎯 Nouveautés
 
-## 🛠️ Features
+Cette version améliorée offre:
+- ✅ **Support Multi-Format**: PDF, Excel (.xlsx, .xls), Word (.docx, .doc)
+- ✅ **Citations Précises**: Chaque réponse cite le document exact, la page/feuille, et la section
+- ✅ **Traitement Automatique**: Indexe automatiquement tous les documents du dossier `data/`
+- ✅ **Interface Améliorée**: Gestion de base de connaissances et affichage des sources
+- ✅ **Expert ISO & RH**: Optimisé pour les normes ISO et documents de ressources humaines
 
-- **📂 Upload Documents**: Easily upload and preview your PDF documents within the app.
-- **🧠 Create Embeddings**: Generate embeddings for your documents to enable efficient search and retrieval.
-- **🤖 Chatbot Interface**: Interact with your documents using a smart chatbot that leverages the created embeddings.
-- **📧 Contact**: Get in touch with the developer or contribute to the project on GitHub.
-- **🌟 User-Friendly Interface**: Enjoy a sleek and intuitive UI with emojis and responsive design for enhanced user experience.
+## 🛠️ Fonctionnalités
+
+- **📂 Support Multi-Format**: Traitez automatiquement vos documents PDF, Excel et Word
+- **📍 Citations Précises**: Chaque réponse indique exactement d'où provient l'information
+- **🧠 Indexation Automatique**: Scanne récursivement tous vos documents dans `data/docs/`
+- **🤖 Chatbot Intelligent**: Répond en français avec contexte et sources
+- **📊 Base de Connaissances**: Visualisez vos documents indexés avec statistiques
+- **🔄 Réindexation Flexible**: Mise à jour incrémentale ou complète de votre base
+- **🌟 Interface Intuitive**: Application Streamlit moderne et responsive
+
+## 📋 Exemple de Réponse avec Sources
+
+```
+Question: "Quels sont les principes de management de la qualité selon ISO 9000?"
+
+Réponse: Les principes de management de la qualité selon ISO 9000 incluent:
+1. Orientation client
+2. Leadership 
+3. Implication du personnel
+[...]
+
+---
+
+📚 Sources:
+
+1. ISO 9000v2015.pdf (ISO Standard)
+   - Localisation: Page 12, Page 13
+   - Extrait: "Les sept principes de management de la qualité sont..."
+```
+
+## 🚀 Démarrage Rapide
 
 ## 🖥️ Tech Stack
 
@@ -29,90 +61,47 @@ The Document Buddy App leverages a combination of cutting-edge technologies to d
   
 - **[Streamlit](https://streamlit.io/)**: The core framework for building the interactive web application, offering an intuitive interface for users to upload documents, create embeddings, and interact with the chatbot.
 
-## 📁 Directory Structure
+## 📁 Structure du Projet
 
-document_buddy_app/
 ```
-│── logo.png
-├── new.py
-├── vectors.py
-├── chatbot.py
-├── requirements.txt
-```
+RAG-Based-LLM-Chatbot/
+│── config.py                 # Configuration centralisée
+├── document_processor.py     # Traitement PDF/Excel/Word avec métadonnées
+├── vectors.py                 # Gestion des embeddings et Qdrant
+├── chatbot.py                 # Chatbot avec citations des sources
+├── batch_indexer.py           # Script d'indexation par lot
+├── new.py                     # Application Streamlit
+├── requirements.txt           # Dépendances Python
+├── GUIDE_UTILISATION.md       # Guide détaillé en français
+└── data/
+- `openpyxl` - Lecture/écriture de fichiers Excel (.xlsx)
+- `python-docx` - Traitement de documents Word (.docx)
+- `pandas` - Manipulation de données Excel
+- `tqdm` - Barres de progression pour l'indexation
 
-## 🚀 Getting Started
+## ✨ Améliorations Principales
 
-Follow these instructions to set up and run the Document Buddy App on your local machine.
+### 1. Support Multi-Format
+- **PDF**: Extraction avec numéros de page
+- **Excel**: Lecture de toutes les feuilles avec noms de colonnes
+- **Word**: Extraction de paragraphes et tableaux
 
-### 1. Clone the Repository
+### 2. Citations des Sources
+Chaque réponse inclut automatiquement:
+- Nom du document source
+- Localisation précise (page, feuille, section)
+- Extrait pertinent du texte
+- Type de document (ISO, RH, Procédure)
 
-```bash
-git clone https://github.com/GURPREETKAURJETHRA/RAG-Based-LLM-Chatbot.git
-cd RAG-Based-LLM-Chatbot
-```
+### 3. Interface Améliorée
+- **Base de Connaissances**: Visualisation des documents indexés
+- **Statistiques**: Nombre de documents par type
+- **Réindexation**: Options incrémentale ou complète
 
-2. Create a Virtual Environment
-
-You can either use Python’s venv or Anaconda to create a virtual environment for managing dependencies.
-
-Option 1: Using venv
-
-On Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-On macOS and Linux:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-Option 2: Using Anaconda
-
-Follow these steps to create a virtual environment using Anaconda:
-1.	Open the Anaconda Prompt.
-2.	Create a new environment:
-
-```bash
-conda create --name Chatbot python=3.10
-```
-
-(Replace Chatbot with your preferred environment name if desired).
-
-3.	Activate the newly created environment:
-
-```bash
-conda activate Chatbot
-```
-
-
-
-3. Install Dependencies
-
-Once the environment is set up (whether venv or Conda), install the required dependencies using requirements.txt:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the App
-
-Start the Streamlit app using the following command:
-
-```bash
-streamlit run new.py
-```
-
-Note: If your main application file is named differently, replace new.py with your actual file name (e.g., app.py).
-
-This command will launch the app in your default web browser. If it doesn’t open automatically, navigate to the URL provided in the terminal (usually http://localhost:8501).
-
-
-### 🤝 Contributing
+### 4. Traitement Automatique
+- Scan récursif de tous les sous-dossiers
+- Gestion intelligente des erreurs
+- Logs détaillés du processus
 
 Contributions are welcome! Whether it’s reporting a bug, suggesting a feature, or submitting a pull request, your input is highly appreciated. Follow these steps to contribute:
 

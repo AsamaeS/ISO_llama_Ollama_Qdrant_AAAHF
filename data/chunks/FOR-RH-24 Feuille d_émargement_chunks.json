@@ -1,0 +1,26 @@
+[
+  {
+    "chunk_id": "for-rh-24_feuille_d_émargement_chunk_0",
+    "text": "=== Sheet: Feuille Emargement ===\n\nCOMPEX | Formulaire | Réf: FOR-RH-24 | Version: 01\nFEUILLE D'ÉMARGEMENT | Date: 25/05/2025 | Page: _/__\nINFORMATIONS SUR LA FORMATION\nIntitulé de la formation: | Code formation: | Date:\nFormateur/Organisme: | Lieu:\nHoraires: | Début: ____h____ | Fin: ____h____ | Pause: ____h____ | Durée totale: | ____ heures | Session n°:\nN° | NOM | PRÉNOM | SERVICE/DÉPARTEMENT | FONCTION | ARRIVÉE | DÉPART | SIGNATURE\n1 | ____h____ | ____h____\n2 | ____h____ | ____h____\n3 | ____h____ | ____h____\n4 | ____h____ | ____h____\n5 | ____h____ | ____h____\n6 | ____h____ | ____h____\n7 | ____h____ | ____h____\n8 | ____h____ | ____h____\n9 | ____h____ | ____h____\n10 | ____h____ | ____h____\n11 | ____h____ | ____h____\n12 | ____h____ | ____h____\n13 | ____h____ | ____h____\n14 | ____h____ | ____h____\n15 | ____h____ | ____h____\nFORMATEUR / RESPONSABLE DE SESSION\nFormateur | ____h____ | ____h____\nNombre de participants prévus: | Nombre de participants présents: | Taux de présence: | ____ %\nOBSERVATIONS / INCIDENTS\nRetards: _______________________________________________________________\nAbsences: _______________________________________________________________\nDéparts anticipés: _______________________________________________________________\nAutres observations: _______________________________________________________________\n_______________________________________________________________________________\nVALIDATION\nResponsable RH | Formateur / Responsable de session\nNom: _______________________ | Nom: _______________________\nDate: _______________________ | Date: _______________________\nSignature: | Signature:\nInstructions: Cette feuille doit être signée par tous les participants à leur arrivée et départ.",
+    "section_id": "document",
+    "section_name": "FOR-RH-24 Feuille d_émargement",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 456,
+    "document": "FOR-RH-24 Feuille d_émargement",
+    "chunk_index": 0,
+    "total_chunks_in_section": 2
+  },
+  {
+    "chunk_id": "for-rh-24_feuille_d_émargement_chunk_1",
+    "text": "Elle constitue un document officiel de suivi de la formation et doit être archivée dans le dossier de formation.",
+    "section_id": "document",
+    "section_name": "FOR-RH-24 Feuille d_émargement",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 26,
+    "document": "FOR-RH-24 Feuille d_émargement",
+    "chunk_index": 1,
+    "total_chunks_in_section": 2
+  }
+]

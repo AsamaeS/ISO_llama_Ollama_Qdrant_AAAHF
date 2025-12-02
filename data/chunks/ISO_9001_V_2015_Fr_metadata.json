@@ -1,0 +1,24 @@
+{
+  "document_name": "ISO_9001_V_2015_Fr",
+  "source_file": "ml_core\\data\\pdfs\\Normes_Standard-20251129T161324Z-1-001\\Normes_Standard\\ISO_9001_V_2015_Fr.pdf",
+  "file_type": "pdf",
+  "ingestion_date": "2025-11-30T12:34:17.135030",
+  "statistics": {
+    "total_pages": 42,
+    "total_chars": 113374,
+    "extraction_method": "Text-based",
+    "file_type": "pdf",
+    "total_sections": 93,
+    "section_levels": {
+      "2": 76,
+      "1": 10,
+      "3": 7
+    },
+    "total_chunks": 118,
+    "total_tokens": 26080,
+    "avg_tokens_per_chunk": 221.01694915254237,
+    "min_tokens": 0,
+    "max_tokens": 1310
+  },
+  "config": {}
+}

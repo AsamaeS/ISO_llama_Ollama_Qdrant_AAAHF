@@ -1,0 +1,86 @@
+[
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_0",
+    "text": "OBJET\n\nCette procédure définit les modalités de détection, d'enregistrement, de traitement et de suivi des non-conformités au sein de COMPEX, ainsi que la mise en œuvre des actions correctives associées.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 53,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 0,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_1",
+    "text": "DOMAINE D'APPLICATION\n\nCette procédure s'applique à toutes les non-conformités détectées dans le cadre des activités de COMPEX, qu'elles soient:\n\nRelatives aux produits/services\n\nRelatives aux processus\n\nRelatives au Système de Management de la Qualité\n\nIdentifiées en interne ou signalées par les clients ou fournisseurs\n\nDOCUMENTS DE RÉFÉRENCE\n\nProcédure d'actions correctives et préventives (PR-QUA-06)\n\nDÉFINITIONS & ABRÉVIATIONS\n\nNon-conformité: Non-satisfaction d'une exigence spécifiée (interne, client, réglementaire ou normative)\n\nNon-conformité majeure: Non-conformité qui affecte significativement la qualité du produit/service ou le fonctionnement du système qualité\n\nNon-conformité mineure: Non-conformité ponctuelle n'affectant pas directement la qualité du produit/service\n\nCorrection: Action visant à éliminer une non-conformité détectée\n\nAction corrective: Action visant à éliminer la cause d'une non-conformité et à éviter qu'elle ne se reproduise\n\nDérogation: Autorisation accordée pour utiliser ou livrer un produit non conforme aux exigences spécifiées\n\nRESPONSABILITÉS\n\nSYNTHÈSE DU PROCESSUS\n\nDESCRIPTION DE LA PROCÉDURE\n\nDétection et signalement des non-conformités\n\nLes non-conformités peuvent être détectées:\n\nLors des contrôles en cours de processus\n\nLors des contrôles finaux\n\nSuite à une réclamation client\n\nLors des audits internes ou externes\n\nDans le cadre des activités quotidiennes\n\nToute personne détectant une non-conformité doit la signaler à son responsable hiérarchique et/ou au RMQ.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 407,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 1,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_2",
+    "text": "Enregistrement des non-conformités\n\nToute non-conformité détectée est enregistrée sur le formulaire \"Fiche de non-conformité\" (FOR-QUA-14) qui comprend:\n\nLa date de détection\n\nL'identification du produit/service/processus concerné\n\nLa description de la non-conformité\n\nLe processus/service concerné\n\nLe nom de la personne ayant détecté la non-conformité\n\nLa classification (majeure/mineure)\n\nLe RMQ attribue un numéro unique à chaque fiche de non-conformité et l'enregistre dans le \"Registre des non-conformités\" (ENR-QUA-15).\n\n7.3. Analyse des non-conformités\n\nL'analyse de chaque non-conformité est réalisée par le RMQ en collaboration avec le responsable du processus concerné afin de:\n\nÉvaluer l'importance et l'impact de la non-conformité\n\nDéterminer si des actions immédiates sont nécessaires\n\nIdentifier les causes potentielles\n\nDécider du traitement approprié\n\nPour les non-conformités majeures ou récurrentes, une analyse des causes racines est systématiquement réalisée à l'aide d'outils appropriés (5 Pourquoi, Ishikawa, etc.). Traitement des non-conformités\n\nSelon la nature de la non-conformité, les décisions suivantes peuvent être prises:\n\nCorrection immédiate\n\nRejet/rebut\n\nReprise/réparation\n\nReclassement\n\nConcession/dérogation (avec information et accord du client si nécessaire)\n\nToute décision de traitement est documentée sur la fiche de non-conformité, avec mention de la personne responsable et du délai de réalisation.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 383,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 2,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_3",
+    "text": "Cas particulier des dérogations\n\nToute demande de dérogation doit être formalisée sur le formulaire \"Demande de dérogation\" (FOR-QUA-16) et approuvée par:\n\nLe responsable du processus concerné\n\nLe RMQ\n\nLa Direction pour les non-conformités majeures\n\nLe client si la non-conformité impacte ses exigences\n\nLes dérogations accordées sont enregistrées dans le \"Registre des dérogations\" (ENR-QUA-17). Actions correctives\n\nPour toute non-conformité majeure ou récurrente, des actions correctives sont définies conformément à la procédure d'actions correctives et préventives (PR-QUA-06). Ces actions sont documentées sur le formulaire \"Plan d'actions correctives\" (FOR-QUA-18) qui précise:\n\nLa description de l'action\n\nLe responsable de mise en œuvre\n\nLe délai de réalisation\n\nLes moyens nécessaires\n\nLes modalités de vérification de l'efficacité\n\nSuivi et vérification\n\nLe RMQ assure le suivi de la mise en œuvre des corrections et des actions correctives et vérifie leur efficacité selon les modalités définies. Une non-conformité n'est clôturée qu'après vérification de l'efficacité des actions mises en œuvre.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 308,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 3,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_4",
+    "text": "Une non-conformité n'est clôturée qu'après vérification de l'efficacité des actions mises en œuvre. Clôture des non-conformités\n\nLa clôture d'une non-conformité est prononcée par le RMQ lorsque:\n\nLa correction a été réalisée\n\nLes actions correctives ont été mises en œuvre\n\nL'efficacité des actions a été vérifiée\n\nLa date de clôture est enregistrée sur la fiche de non-conformité et dans le registre des non-conformités. Analyse statistique et communication\n\nLe RMQ réalise une analyse trimestrielle des non-conformités pour:\n\nIdentifier les tendances\n\nÉvaluer l'efficacité du processus de gestion des non-conformités\n\nProposer des améliorations\n\nLes résultats de cette analyse sont présentés lors des revues de processus et de la revue de direction.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 205,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 4,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_5",
+    "text": "ENREGISTREMENTS\n\nDomaine:\n\nManagement de la qualité\n\nDocument:\n\nProcédure de gestion des non-conformités\n\nRéférence:\n\nPCD- MQA- 06 V \n\n3.0\n\nDate dernière modification:\n\n01/05/2025\n\nDate mise en application:\n\n16/06/2025\n\nApprobation du document\n\nApprobation du document\n\nApprobation du document\n\nRédacteur\n\nVérificateur\n\nApprobateur\n\nNom Prénom\n\nFonction\n\nVisa\n\nDate\n\nHistorique des changements\n\nHistorique des changements\n\nHistorique des changements\n\nEdition\n\nDate de création\n\nMotif de mise à jour\n\n1.0\n\n01/05/2025\n\nCréation\n\n2.0\n\n20/05/2025\n\nChangement de la forme des procédures\n\n3.0\n\n16/06/2025\n\nAdaptation à la nouvelle organisation\n\nRôle\n\nResponsabilités\n\nTous les employés\n\nSignaler toute NC immédiatement via le formulaire de déclaration NC (papier/digital). RMQ\n\nAnalyser les NC et piloter les actions correctives. Responsables\n\nMettre en œuvre les actions correctives dans son domaine. Direction\n\nValider les actions pour les NC critiques et allouer les ressources nécessaires.",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 287,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 5,
+    "total_chunks_in_section": 7
+  },
+  {
+    "chunk_id": "pcd-_mqa-_06_-v3.0_procédure_de_gestion_des_non-conformités_chunk_6",
+    "text": "Responsables\n\nMettre en œuvre les actions correctives dans son domaine. Direction\n\nValider les actions pour les NC critiques et allouer les ressources nécessaires. N°\n\nAction\n\nResponsable\n\nEnregistrements\n\nDétection et signalement de la non-conformité\n\nTout le personnel\n\nEnregistrement de la non-conformité\n\nPersonnel concerné / RMQ\n\nFOR-QUA-14 Fiche de non-conformité\nENR-QUA-15 Registre des non-conformités\n\nAnalyse de la non-conformité et de ses causes\n\nRMQ / Responsable du processus concerné\n\nFOR-QUA-14 Fiche de non-conformité\n\nDécision sur le traitement de la non-conformité\n\nResponsable du processus concerné / Direction\n\nFOR-QUA-14 Fiche de non-conformité\n\nDemande de dérogation (si applicable)\n\nResponsable du processus concerné\n\nFOR-QUA-16 Demande de dérogation\nENR-QUA-17 Registre des dérogations\n\nMise en œuvre de la correction\n\nPersonnel désigné\n\nFOR-QUA-14 Fiche de non-conformité\n\nDéfinition des actions correctives\n\nRMQ / Responsable du processus concerné\n\nFOR-QUA-18 Plan d'actions correctives\n\nMise en œuvre des actions correctives\n\nPersonnel désigné\n\nFOR-QUA-18 Plan d'actions correctives\n\nVérification de l'efficacité des actions\n\nRMQ\n\nFOR-QUA-14 Fiche de non-conformité\nFOR-QUA-18 Plan d'actions correctives\n\nClôture de la non-conformité\n\nRMQ\n\nFOR-QUA-14 Fiche de non-conformité\nENR-QUA-15 Registre des non-conformités\n\nAnalyse statistique périodique\n\nRMQ\n\nENR-QUA-15 Registre des non-conformités\n\nEnregistrement\n\nRéférence\n\nFiche de non-conformité\n\nFOR-QUA-14\n\nRegistre des non-conformités\n\nENR-QUA-15\n\nDemande de dérogation\n\nFOR-QUA-16\n\nRegistre des dérogations\n\nENR-QUA-17\n\nPlan d'actions correctives\n\nFOR-QUA-18",
+    "section_id": "document",
+    "section_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "page_start": 1,
+    "page_end": 14,
+    "token_count": 522,
+    "document": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+    "chunk_index": 6,
+    "total_chunks_in_section": 7
+  }
+]

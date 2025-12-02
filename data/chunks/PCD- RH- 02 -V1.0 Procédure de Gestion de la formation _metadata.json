@@ -1,0 +1,20 @@
+{
+  "document_name": "PCD- RH- 02 -V1.0 Procédure de Gestion de la formation ",
+  "source_file": "ml_core\\data\\pdfs\\Procédure-20251129T161328Z-1-001\\Procédure\\PCD- RH- 02 -V1.0 Procédure de Gestion de la formation .docx",
+  "file_type": "word",
+  "ingestion_date": "2025-11-30T12:34:17.957522",
+  "statistics": {
+    "total_pages": 17,
+    "total_chars": 8637,
+    "extraction_method": "python-docx",
+    "file_type": "word",
+    "total_sections": 0,
+    "section_levels": {},
+    "total_chunks": 7,
+    "total_tokens": 2367,
+    "avg_tokens_per_chunk": 338.14285714285717,
+    "min_tokens": 68,
+    "max_tokens": 706
+  },
+  "config": {}
+}

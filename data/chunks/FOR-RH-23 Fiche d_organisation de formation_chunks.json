@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_id": "for-rh-23_fiche_d_organisation_de_formation_chunk_0",
+    "text": "=== Sheet: Fiche Organisation Formation ===\n\nCOMPEX | Formulaire | Réf: FOR-RH-23 | Version: 01\nFICHE D'ORGANISATION DE FORMATION | Date: 25/05/2025 | Page: _/__\n1. IDENTIFICATION DE LA FORMATION\nIntitulé de la formation: | Code formation:\nObjectifs:\nType de formation: | ☐ | Interne | ☐ | Externe\nModalité: | ☐ | Présentiel | ☐ | Distanciel\n2. PLANIFICATION\nDate de début: | Date de fin: | Durée (heures):\nHoraires: | Lieu:\n3. FORMATEUR / ORGANISME\nNom du formateur/Organisme: | Contact:\nQualifications:\n4. PARTICIPANTS\nNombre de participants:\nListe des participants:\nPrérequis:\n5. MOYENS ET RESSOURCES\nMoyens matériels:\nSupports de formation:\n6. ASPECTS FINANCIERS\nCoût total (DH): | Coût/participant (DH): | Budget imputé:\nN° Bon de commande:\n7. ÉVALUATION PRÉVUE\nModalités: | ☐ | Éval. à chaud | ☐ | Éval. à froid\n☐ | Test compétences | ☐ | Attestation\n8. OBSERVATIONS\nObservations particulières:\n9. APPROBATION\nResponsable RH | Responsable hiérarchique | Direction\nNom: _______________ | Nom: _______________ | Nom: _______________\nDate: _______________ | Date: _______________ | Date: _______________\nSignature: | Signature: | Signature:",
+    "section_id": "document",
+    "section_name": "FOR-RH-23 Fiche d_organisation de formation",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 374,
+    "document": "FOR-RH-23 Fiche d_organisation de formation",
+    "chunk_index": 0,
+    "total_chunks_in_section": 1
+  }
+]

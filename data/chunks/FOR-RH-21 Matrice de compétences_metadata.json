@@ -1,0 +1,22 @@
+{
+  "document_name": "FOR-RH-21 Matrice de compétences",
+  "source_file": "ml_core\\data\\pdfs\\Gestion de la formation-20251129T161318Z-1-001\\Gestion de la formation\\FOR-RH-21 Matrice de compétences.xlsx",
+  "file_type": "excel",
+  "ingestion_date": "2025-11-30T12:34:18.702715",
+  "statistics": {
+    "total_pages": 1,
+    "total_chars": 1943,
+    "extraction_method": "openpyxl",
+    "file_type": "excel",
+    "total_sections": 1,
+    "section_levels": {
+      "1": 1
+    },
+    "total_chunks": 1,
+    "total_tokens": 455,
+    "avg_tokens_per_chunk": 455.0,
+    "min_tokens": 455,
+    "max_tokens": 455
+  },
+  "config": {}
+}

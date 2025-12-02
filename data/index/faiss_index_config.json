@@ -1,0 +1,6 @@
+{
+  "index_type": "flat",
+  "metric": "l2",
+  "n_vectors": 292,
+  "dimension": 384
+}

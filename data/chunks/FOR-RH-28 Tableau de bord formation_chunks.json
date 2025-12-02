@@ -1,0 +1,26 @@
+[
+  {
+    "chunk_id": "for-rh-28_tableau_de_bord_formation_chunk_0",
+    "text": "=== Sheet: Tableau de bord formation ===\n\nCOMPEX | Formulaire | Réf. : FOR-RH-28 | Version: 01\nTABLEAU DE BORD FORMATION | Date: 25/05/2025 | Page: _/__\nINFORMATIONS PÉRIODE\nPériode: | Année: | Trimestre/Semestre: | Date d'édition: | Établi par:\nINDICATEURS CLÉS DE PERFORMANCE (KPI)\nINDICATEUR | OBJECTIF | RÉALISÉ | ÉCART | % | TENDANCE | COMMENTAIRES / ACTIONS\nTaux de réalisation du plan de formation | 1 | ↗ ↘ →\nNombre d'heures de formation par collaborateur | __ h | ↗ ↘ →\nBudget formation consommé / alloué | 1 | ↗ ↘ →\nTaux de satisfaction moyen (éval. à chaud) | ≥ 3/4 | ↗ ↘ →\nEfficacité moyenne (éval.",
+    "section_id": "document",
+    "section_name": "FOR-RH-28 Tableau de bord formation",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 228,
+    "document": "FOR-RH-28 Tableau de bord formation",
+    "chunk_index": 0,
+    "total_chunks_in_section": 2
+  },
+  {
+    "chunk_id": "for-rh-28_tableau_de_bord_formation_chunk_1",
+    "text": "à chaud) | ≥ 3/4 | ↗ ↘ →\nEfficacité moyenne (éval. à froid) | ≥ 3/4 | ↗ ↘ →\nTaux de présence aux formations | ≥ 95% | ↗ ↘ →\nRÉPARTITION PAR SERVICE\nSERVICE | EFFECTIF | NB FORMATIONS | NB HEURES | BUDGET (DH) | HEURES/PERS. | COÛT/PERS. | PRIORITÉ 1 | PRIORITÉ 2 | PRIORITÉ 3 | PRIORITÉ 4 | OBSERVATIONS\nDirection\nRessources Humaines\nFinance/Comptabilité\nCommercial/Marketing\nProduction/Opérations\nQualité\nIT/Informatique\nTOTAL\nRÉPARTITION PAR TYPE DE FORMATION\nTYPE DE FORMATION | NB SESSIONS | NB PARTICIPANTS | NB HEURES | BUDGET (DH) | COÛT MOYEN | % DU TOTAL | COMMENTAIRES\nFormations obligatoires/réglementaires\nFormations techniques/métier\nManagement/Leadership\nInformatique/Digital\nQualité/Sécurité\nLangues\nDéveloppement personnel\nANALYSE QUALITATIVE\nPOINTS FORTS | POINTS D'AMÉLIORATION | ACTIONS CORRECTIVES | ÉCHÉANCES\nÉVOLUTION TRIMESTRIELLE\nINDICATEUR | T1 | T2 | T3 | T4 | ÉVOLUTION | COMMENTAIRES\nNb heures formation | __ %\nBudget consommé | __ %\nSatisfaction moyenne | __ %\nOBJECTIFS PÉRIODE SUIVANTE\nOBJECTIFS | ACTIONS PRÉVUES | RESPONSABLE | ÉCHÉANCE\nVALIDATION\nResponsable RH | Responsable Management Qualité | Direction\nDate: _________________ | Date: _________________ | Date: _________________\nSignature: | Signature: | Signature:\nFréquence d'édition: Mensuelle (suivi) / Semestrielle (analyse complète) / Annuelle (bilan global) Diffusion: Direction, RH, Responsables de service, Comité qualité",
+    "section_id": "document",
+    "section_name": "FOR-RH-28 Tableau de bord formation",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 469,
+    "document": "FOR-RH-28 Tableau de bord formation",
+    "chunk_index": 1,
+    "total_chunks_in_section": 2
+  }
+]

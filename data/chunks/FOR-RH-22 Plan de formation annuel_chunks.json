@@ -1,0 +1,26 @@
+[
+  {
+    "chunk_id": "for-rh-22_plan_de_formation_annuel_chunk_0",
+    "text": "=== Sheet: Plan formation annuel ===\n\nCOMPEX | Formulaire | Réf. : FOR-RH-22 | Version: 01\nFICHE D'ORGANISATION DE FORMATION | Date: 25/05/2025 | Page: _/__\nINFORMATIONS GÉNÉRALES\nAnnée: | Effectif total: | ___ personnes | Budget alloué: | Date validation:\nRÉPARTITION BUDGÉTAIRE PAR PRIORITÉ:\n• Priorité 1 (Obligatoire): ___% = ______ DH | • Priorité 2 (Stratégique): ___% = ______ DH | • Priorité 3 (Développement): ___% = ______ DH | • Priorité 4 (Souhait): ___% = ______ DH\nPLANNING DÉTAILLÉ DES FORMATIONS\nN° | INTITULÉ FORMATION | DOMAINE | PRIO | PARTICIPANTS | NB | DURÉE | TYPE | ORGANISME/FORMATEUR | COÛT TOTAL | T1 | T2 | T3 | T4 | STATUT | RÉALISÉ | COÛT RÉEL | OBSERVATIONS\nPRIORITÉ 1 - FORMATIONS OBLIGATOIRES / RÉGLEMENTAIRES\n1 | Sécurité au travail | Sécurité | 1 | Tout personnel | 8h | Interne | X\n2 | Accueil sécurité nouveaux embauchés | Intégration | 1 | Nouveaux collaborateurs | 4h | Interne | X | X | X | X\n3 | Formation ISO 9001 v2015 | Qualité | 1 | Responsables process | 16h | Externe | X\n4 | 1\n5 | 1\nPRIORITÉ 2 - FORMATIONS STRATÉGIQUES\n6 | Management et leadership | Management | 2 | Managers et superviseurs | 24h | Externe | X\n7 | Gestion de projet | Management | 2 | Chefs de projet | 16h | Externe | X\n8 | Techniques de vente et négociation | Commercial | 2 | Équipe commerciale | 16h | Externe | X\n9 | 2\n10 | 2\nPRIORITÉ 3 - FORMATIONS DE DÉVELOPPEMENT\n11 | Excel avancé | Informatique | 3 | Personnel administratif | 16h | Externe | X\n12 | Communication efficace | Communication | 3 | Tout personnel | 8h | Interne | X\n13 | Anglais professionnel | Langues | 3 | Encadrement | 40h | Externe | X | X | X | X\n14 | 3\n15 | 3\nPRIORITÉ 4 - FORMATIONS DE CONVENANCE\n16 | Développement personnel | Personnel | 4 | Volontaires | 8h | Externe | X\n17 | 4\n18 | 4\nTOTAL | - | - | - | __ | __ h | - | - | ___ DH | __ | __ | __ | __ | - | __% | ___ DH | -\nSYNTHÈSE PAR SERVICE\nSERVICE | EFFECTIF | NB FORMATIONS | NB PARTICIPANTS | HEURES TOTAL | HEURES/PERS. | BUDGET ALLOUÉ | COÛT/PERS. | % BUDGET | FORMATIONS PRIORITAIRES | OBSERVATIONS\nDirection\nRessources Humaines\nFinance/Comptabilité\nCommercial/Marketing\nProduction/Opérations\nQualité\nIT/Informatique\nSYNTHÈSE PAR TYPE DE FORMATION\nTYPE/DOMAINE | NB FORMATIONS | NB PARTICIPANTS | HEURES TOTAL | BUDGET ALLOUÉ | % BUDGET TOTAL | COÛT MOYEN | ORGANISMES PRINCIPAUX | OBSERVATIONS\nManagement/Leadership\nTechnique/Métier\nInformatique/Digital\nQualité/Sécurité\nCommercial/Marketing\nLangues\nDéveloppement personnel\nRéglementaire/Obligatoire\nOBJECTIFS ET INDICATEURS DE PERFORMANCE\nOBJECTIFS QUANTITATIFS | CIBLE | OBJECTIFS QUALITATIFS | CIBLE | MOYENS DE MESURE\nHeures de formation par collaborateur | ≥ 20h | Satisfaction moyenne formations | ≥ 3/4 | Évaluations à chaud et à froid\nTaux de réalisation du plan | ≥ 90% | Efficacité moyenne formations | ≥ 3/4 | Suivi post-formation (3-6 mois)\nRespect du budget alloué | ± 5% | Développement compétences clés | ≥ 80% | Matrice de compétences\nTaux de présence formations | ≥ 95% | Amélioration performance poste | ≥ 70% | Entretiens individuels\nACTIONS CORRECTIVES ET PRÉVENTIVES\nRISQUES IDENTIFIÉS | ACTIONS PRÉVENTIVES | ACTIONS CORRECTIVES SI ÉCART | RESPONSABLE | ÉCHÉANCE\nDépassement budget formation | Suivi mensuel, négociation tarifs | Report formations non critiques | RRH + Direction | Trimestrielle\nFaible taux de participation | Sensibilisation, planning adapté | Sessions supplémentaires | Responsables service | Mensuelle\nManque formateurs internes | Formation de formateurs | Recours prestataires externes | RRH | Semestrielle\nNon application des acquis | Suivi post-formation renforcé | Formations complémentaires | Managers + RRH | 3-6 mois\nVALIDATION\nResponsable RH | Responsable Management Qualité | Direction\nDate: _________________ | Date: _________________ | Date: _________________\nSignature: | Signature: | Signature:\nRévisions: Le plan est révisé trimestriellement et ajusté selon les besoins, contraintes budgétaires et retours d'évaluation.",
+    "section_id": "document",
+    "section_name": "FOR-RH-22 Plan de formation annuel",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 1323,
+    "document": "FOR-RH-22 Plan de formation annuel",
+    "chunk_index": 0,
+    "total_chunks_in_section": 2
+  },
+  {
+    "chunk_id": "for-rh-22_plan_de_formation_annuel_chunk_1",
+    "text": "Diffusion: Direction, RH, Responsables de service, Représentants du personnel. Archivage: Conservation pendant 5 ans minimum pour suivi historique et analyse des tendances.",
+    "section_id": "document",
+    "section_name": "FOR-RH-22 Plan de formation annuel",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 41,
+    "document": "FOR-RH-22 Plan de formation annuel",
+    "chunk_index": 1,
+    "total_chunks_in_section": 2
+  }
+]

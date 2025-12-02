@@ -1,0 +1,20 @@
+{
+  "document_name": "FOR-RH-27 Fiche d_évaluation à froid",
+  "source_file": "ml_core\\data\\pdfs\\Gestion de la formation-20251129T161318Z-1-001\\Gestion de la formation\\FOR-RH-27 Fiche d_évaluation à froid.xlsx",
+  "file_type": "excel",
+  "ingestion_date": "2025-11-30T12:34:19.890049",
+  "statistics": {
+    "total_pages": 1,
+    "total_chars": 2268,
+    "extraction_method": "openpyxl",
+    "file_type": "excel",
+    "total_sections": 0,
+    "section_levels": {},
+    "total_chunks": 3,
+    "total_tokens": 841,
+    "avg_tokens_per_chunk": 280.3333333333333,
+    "min_tokens": 155,
+    "max_tokens": 396
+  },
+  "config": {}
+}

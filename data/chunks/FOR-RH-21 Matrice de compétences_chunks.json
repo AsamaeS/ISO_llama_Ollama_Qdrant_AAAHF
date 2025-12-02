@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_id": "for-rh-21_matrice_de_compétences_0_chunk_0",
+    "text": "Fonction | COLLABORATEURS | Gestion de projet | Leadership | Communication | Sécuité SI | Pyhthon | Qualité ISO 9001 | Besoins formation | Observations\nChef de projet SI | Nom, Prénom\nANALYSE DES BESOINS DE FORMATION PAR SERVICE\nSERVICE | COMPÉTENCES PRIORITAIRES À DÉVELOPPER | FORMATIONS RECOMMANDÉES | PLANNING PROPOSÉ | BUDGET ESTIMÉ\nDirection\nRessources Humaines\nFinance/Comptabilité\nCommercial/Marketing\nProduction/Opérations\nQualité\nIT/Informatique\nSUIVI DES FORMATIONS RÉALISÉES\nEntité | Fonction | COLLABORATEURS | FORMATION SUIVIE | DATE | DURÉE | ÉVAL. CHAUD | ÉVAL. FROID | COMPÉTENCE MISE À JOUR | OBSERVATIONS\nDSI | Chef de projet SI | Nom, Prénom\nSTATISTIQUES GLOBALES\nINDICATEUR | TOTAL | OBJECTIF | ÉCART | COMMENTAIRES\nNombre de collaborateurs évalués | 1\nCompétences niveau ≥ 3 (confirmé) | \n0.8\nCompétences critiques niveau < 2 | < 5%\nFormateurs internes (niveau 5) | ≥ 2 par domaine\nPLAN D'ACTIONS PRIORITAIRES\nCOMPÉTENCE/DOMAINE | ACTIONS PRÉVUES | PERSONNES CONCERNÉES | ÉCHÉANCE | RESPONSABLE | BUDGET | STATUT\nVALIDATION\nResponsable RH | Responsable de service | Direction\nDate: _________________ | Date: _________________ | Date: _________________\nSignature: | Signature: | Signature:\nFréquence de mise à jour: Semestrielle (minimum) ou après chaque formation significative Utilisation: Identification des besoins de formation, planification du développement des compétences, évaluation des risques de compétences Confidentialité: Document interne - Accès restreint RH et management",
+    "section_id": "0",
+    "section_name": "Aucune compétence 1 Débutant (formation nécessaire) 2 Intermédiaire (avec supervision) 3 Confirmé (autonome) 4 Expert (référent) 5 Formateur (peut former)",
+    "page_start": 1,
+    "page_end": 1,
+    "token_count": 455,
+    "document": "FOR-RH-21 Matrice de compétences",
+    "chunk_index": 0,
+    "total_chunks_in_section": 1
+  }
+]

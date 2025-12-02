@@ -1,0 +1,20 @@
+{
+  "document_name": "FOR-RH-28 Tableau de bord formation",
+  "source_file": "ml_core\\data\\pdfs\\Gestion de la formation-20251129T161318Z-1-001\\Gestion de la formation\\FOR-RH-28 Tableau de bord formation.xlsx",
+  "file_type": "excel",
+  "ingestion_date": "2025-11-30T12:34:20.144643",
+  "statistics": {
+    "total_pages": 1,
+    "total_chars": 1979,
+    "extraction_method": "openpyxl",
+    "file_type": "excel",
+    "total_sections": 0,
+    "section_levels": {},
+    "total_chunks": 2,
+    "total_tokens": 697,
+    "avg_tokens_per_chunk": 348.5,
+    "min_tokens": 228,
+    "max_tokens": 469
+  },
+  "config": {}
+}

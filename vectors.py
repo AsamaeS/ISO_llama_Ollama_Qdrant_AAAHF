@@ -1,11 +1,19 @@
 # vectors.py
 
+"""
+Enhanced embeddings manager with support for multiple document formats
+and batch document processing.
+"""
+
 import os
-import base64
-from langchain_community.document_loaders import UnstructuredPDFLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from typing import List
+from langchain_core.documents import Document
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_community.vectorstores import Qdrant
+from qdrant_client import QdrantClient
+import config
+from document_processor import DocumentProcessor
+
 
 class EmbeddingsManager:
     def __init__(
@@ -37,44 +45,85 @@ class EmbeddingsManager:
             model_kwargs={"device": self.device},
             encode_kwargs=self.encode_kwargs,
         )
+        
+        self.document_processor = DocumentProcessor()
 
-    def create_embeddings(self, pdf_path: str):
+    def create_embeddings(self, file_path: str):
         """
-        Processes the PDF, creates embeddings, and stores them in Qdrant.
+        Processes a single file, creates embeddings, and stores them in Qdrant.
+        (Legacy method for backward compatibility)
 
         Args:
-            pdf_path (str): The file path to the PDF document.
+            file_path (str): The file path to the document.
 
         Returns:
             str: Success message upon completion.
         """
-        if not os.path.exists(pdf_path):
-            raise FileNotFoundError(f"The file {pdf_path} does not exist.")
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"The file {file_path} does not exist.")
 
-        # Load and preprocess the document
-        loader = UnstructuredPDFLoader(pdf_path)
-        docs = loader.load()
-        if not docs:
-            raise ValueError("No documents were loaded from the PDF.")
-
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000, chunk_overlap=250
-        )
-        splits = text_splitter.split_documents(docs)
-        if not splits:
-            raise ValueError("No text chunks were created from the documents.")
+        # Load document using the new document processor
+        documents = self.document_processor.load_document(file_path)
+        
+        if not documents:
+            raise ValueError("No documents were loaded from the file.")
 
         # Create and store embeddings in Qdrant
+        return self.store_embeddings(documents)
+    
+    def store_embeddings(self, documents: List[Document], force_recreate: bool = False):
+        """
+        Store pre-loaded documents with embeddings in Qdrant.
+        
+        Args:
+            documents: List of Document objects to store
+            force_recreate: If True, delete existing collection and recreate
+            
+        Returns:
+            str: Success message upon completion
+        """
+        if not documents:
+            raise ValueError("No documents provided for embedding storage.")
+        
         try:
+            if force_recreate:
+                # Delete existing collection if it exists
+                try:
+                    client = QdrantClient(url=self.qdrant_url, prefer_grpc=False)
+                    client.delete_collection(collection_name=self.collection_name)
+                    print(f"🗑️ Deleted existing collection: {self.collection_name}")
+                except Exception:
+                    pass  # Collection doesn't exist, that's fine
+            
+            # Create and store embeddings in Qdrant
             qdrant = Qdrant.from_documents(
-                splits,
+                documents,
                 self.embeddings,
                 url=self.qdrant_url,
                 prefer_grpc=False,
                 collection_name=self.collection_name,
             )
+            
+            return f"✅ {len(documents)} documents successfully embedded and stored in Qdrant collection '{self.collection_name}'!"
+            
         except Exception as e:
-            raise ConnectionError(f"Failed to connect to Qdrant: {e}")
-
-        return "✅ Vector DB Successfully Created and Stored in Qdrant!"
-
+            raise ConnectionError(f"Failed to connect to Qdrant or store embeddings: {e}")
+    
+    def load_directory_and_embed(self, directory_path: str, force_recreate: bool = False):
+        """
+        Load all documents from a directory and create embeddings.
+        
+        Args:
+            directory_path: Path to directory containing documents
+            force_recreate: If True, delete existing collection and recreate
+            
+        Returns:
+            str: Success message with statistics
+        """
+        print(f"📂 Loading documents from: {directory_path}")
+        documents = self.document_processor.load_directory(directory_path)
+        
+        if not documents:
+            return "⚠️ No documents found to process."
+        
+        return self.store_embeddings(documents, force_recreate=force_recreate)

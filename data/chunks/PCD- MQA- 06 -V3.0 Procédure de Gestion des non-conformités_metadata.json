@@ -1,0 +1,20 @@
+{
+  "document_name": "PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités",
+  "source_file": "ml_core\\data\\pdfs\\Procédure-20251129T161328Z-1-001\\Procédure\\PCD- MQA- 06 -V3.0 Procédure de Gestion des non-conformités.docx",
+  "file_type": "word",
+  "ingestion_date": "2025-11-30T12:34:17.773924",
+  "statistics": {
+    "total_pages": 14,
+    "total_chars": 7485,
+    "extraction_method": "python-docx",
+    "file_type": "word",
+    "total_sections": 0,
+    "section_levels": {},
+    "total_chunks": 7,
+    "total_tokens": 2165,
+    "avg_tokens_per_chunk": 309.2857142857143,
+    "min_tokens": 53,
+    "max_tokens": 522
+  },
+  "config": {}
+}
